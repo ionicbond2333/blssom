@@ -1,0 +1,60 @@
+/* General Page Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header and Footer Styles */
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+/* Main Content Area Styles */
+main {
+    padding: 2rem;
+}
+
+/* Flower Image Styles */
+#flower-image {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* Watering Button Styles */
+#water-flower-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+#water-flower-btn:hover {
+    background-color: #45a049;
+}
+
+/* Last Watered Time Display Styles */
+#watering-info {
+    margin-top: 2rem;
+}
+
+/* Notification Area Styles */
+#notification-area {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #e7f3fe;
+    border: 1px solid #bce8f1;
+    border-radius: 5px;
+    color: #31708f;
+}
